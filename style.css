@@ -1,0 +1,129 @@
+p {
+  font-family: 'Montserrat'; }
+
+body {
+  background-color: #FBF7FF; }
+
+.text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: left;
+  padding: 0px 20px; }
+
+.main-title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.4px;
+  margin-bottom: 35px; }
+
+.section {
+  margin-top: 40px; }
+
+.section-title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  text-align: left;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: -0.4px;
+  margin-bottom: 0px; }
+
+.separator {
+  height: 5px;
+  width: 147px;
+  background-color: #241E4B;
+  margin-left: 40px;
+  margin-top: 15px;
+  margin-bottom: 25px; }
+
+.side-text {
+  color: #FBF7FF;
+  background-color: #241E4B;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 0px; }
+
+.contact-title {
+  color: #490F0D;
+  margin-bottom: 16px; }
+
+.contact-text {
+  text-align: center;
+  margin-bottom: 4px; }
+
+.section-contact {
+  border: 2px solid #490F0D;
+  padding: 20px;
+  margin-bottom: 40px; }
+
+@media (min-width: 1200px) {
+  .side-section-wrapper {
+    max-width: 350px;
+    position: sticky;
+    top: 68px; } }
+
+#desktop-side-section {
+  padding-top: 68px; }
+
+.col-lg-4 {
+  padding-top: 68px; }
+
+.nav {
+  padding: 15px 20px;
+  margin-bottom: 10px; }
+  .nav img {
+    width: 25px;
+    height: 25px; }
+  .nav p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0px;
+    padding-left: 10px; }
+  .nav .contact-button {
+    color: #490F0D;
+    background-color: #FBF7FF;
+    border: solid 1px #241E4B;
+    padding: 10px 20px;
+    line-height: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 2px;
+    margin-left: 30px;
+    transition: all 1s; }
+    .nav .contact-button:hover {
+      background-color: #490F0D;
+      color: #FBF7FF;
+      border: solid 1px #490F0D; }
+  .nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 0px;
+    margin: 0px; }
+  .nav .icon-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+
+.carousel-item img {
+  height: 45vh;
+  object-fit: cover; }
+  @media screen and (min-width: 768px) {
+    .carousel-item img {
+      height: 65vh; } }
+
+/*# sourceMappingURL=style.css.map */
