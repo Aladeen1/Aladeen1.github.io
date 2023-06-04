@@ -54,6 +54,7 @@ body {
 
 .section.collapse p {
   line-height: 40px;
+  text-align: left;
 }
 
 .section-title {
