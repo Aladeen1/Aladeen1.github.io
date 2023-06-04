@@ -33,13 +33,15 @@ body {
 
 .flexible {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  border-left: 4px solid #241E4B;
 }
 .flexible .card {
   background-color: #FBF7FF;
   border: 2px solid #241E4B;
   width: 255px;
   padding: 20px;
+  margin: 0px 30px;
 }
 .flexible .card .title {
   font-weight: 400;
