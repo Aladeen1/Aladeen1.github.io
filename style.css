@@ -41,7 +41,7 @@ body {
   border: 2px solid #241E4B;
   width: 255px;
   padding: 20px;
-  margin: 0px 30px;
+  margin: 10px 30px;
 }
 .flexible .card .title {
   font-weight: 400;
@@ -122,8 +122,7 @@ body {
   margin-bottom: 10px;
 }
 .nav img {
-  width: 25px;
-  height: 25px;
+  height: 55px;
 }
 .nav p {
   font-family: "Montserrat";
@@ -157,6 +156,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  align-items: center;
   width: 100%;
   padding: 0px;
   margin: 0px;
@@ -177,3 +177,20 @@ embed {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.legal {
+  text-decoration: underline;
+  text-align: left;
+  margin-top: 16px;
+}
+
+
+@media (max-width: 1200px) {
+  .nav ul {
+    justify-content: space-between;
+  }
+
+  .nav img {
+    height: 40px;
+  }
+}
