@@ -8,20 +8,29 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <nav class="nav">
-      <ul>
-        <li class="icon-section">
-          <img src="logo.png">
-        </li>
-        <li>
-          <a class="contact-button" href="mailto:contact@lesshedsdeladoller.fr">Contact</a>
-        </li>
-      </ul>
-  </nav>
+  <div class="home-section-container">
+    <nav class="nav">
+        <ul>
+          <li class="icon-section">
+            <img src="logo.png">
+          </li>
+          <li>
+            <a class="contact-button" href="mailto:contact@lesshedsdeladoller.fr">Contact</a>
+          </li>
+        </ul>
+    </nav>
+    <video autoplay muted loop>
+      <source src="https://res.cloudinary.com/dull0qykp/video/upload/v1689197052/Vid%C3%A9o1_005_sliguh.mp4" type="video/mp4">
+      <!-- Include additional source elements for other video formats if needed -->
+    </video>
+    <h1 class="main-title-h1 text-overlay-h1">Les sheds de la Doller</h1>
+    <h2 class="main-title-h2 text-overlay-h2">Programme Immobilier Neuf à Masevaux</h2>
+  </div>
 
   <div class="container text-center" style="padding-bottom:70px;">
     <div class="row">
@@ -50,8 +59,8 @@
         </div>
       </div>
       <div class="col-xl-8" id="mobile-section-target">
-        <!-- Bootstrap Carousel -->
-        <h1 class="main-title">Programme Immobilier Neuf à Masevaux</h1>
+        <h2 class="section-title">Le programme</h2>
+        <div class="separator"></div>
         <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -84,8 +93,6 @@
         </div>
 
         <div class="section">
-            <h2 class="section-title">Le programme</h2>
-            <div class="separator"></div>
             <p class="text">
               Située au centre de la petite ville de Masevaux, au cœur de la vallée de la
               Doller, cette ancienne friche industrielle entièrement rénovée dans le respect
