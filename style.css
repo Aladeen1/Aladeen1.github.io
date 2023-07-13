@@ -296,4 +296,17 @@ video {
     font-size: 22px;
     line-height: 26px;
   }
+
+  i {
+    font-size: 30px;
+  }
+}
+
+i {
+  font-size: 30px;
+}
+
+.maison-section .more-info {
+  margin-bottom: 0;
+  margin-top: 1rem;
 }
