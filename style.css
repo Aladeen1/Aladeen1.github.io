@@ -24,8 +24,6 @@ body {
   text-align: center;
   letter-spacing: -0.4px;
   margin-bottom: 35px;
-  position: absolute;
-  bottom: 150px;
 }
 
 .main-title-h2 {
@@ -36,8 +34,6 @@ body {
   text-align: center;
   letter-spacing: -0.4px;
   margin-bottom: 35px;
-  position: absolute;
-  bottom: 50px;
 }
 
 .section {
@@ -226,25 +222,13 @@ video {
   object-fit: cover;
 }
 
-.text-overlay-h1 {
+.text-overlay {
   position: absolute;
   top: 65%;
   left: 0%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 36px;
-  opacity: 0;
-  animation: text-animation 3s linear forwards;
-  width: 100%
-}
-
-.text-overlay-h2 {
-  position: absolute;
-  top: 73%;
-  left: 0%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 24px;
   opacity: 0;
   animation: text-animation 3s linear forwards;
   width: 100%
@@ -275,11 +259,11 @@ video {
     height: 40px;
   }
 
-  .text-overlay-h1 {
+  .main-title-h1 {
     font-size: 26px;
   }
 
-  .text-overlay-h2 {
+  .main-title-h2 {
     font-size: 20px;
   }
 
